@@ -34,9 +34,16 @@ def analyze_directory_structure(directory_structure):
         f"{directory_structure}"
     )
     try:
-        response = openai.ChatCompletion.create(
-            model="gpt-3.5-turbo",
-            prompt=prompt,
+        response = openai.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+        {
+            "role": "user",
+            "content": [
+                {"type": "text", "text": prompt},
+            ],
+        }
+    ],
             max_tokens=500,
         )
         return response.choices[0].text.strip()

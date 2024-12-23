@@ -57,7 +57,7 @@ You can set up the script as a global command (`mansplain`):
 
 1. Run the setup script:
    ```bash
-   bash setup_mansplain.sh
+   bash setup.sh
    ```
 
 2. Use it as a command:
