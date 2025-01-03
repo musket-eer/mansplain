@@ -123,7 +123,3 @@ Feel free to fork the repository and submit pull requests for improvements or bu
 - [OpenAI API](https://platform.openai.com/)
 - [Python Dotenv](https://pypi.org/project/python-dotenv/)
 - [Tree Command](https://linux.die.net/man/1/tree)
-
---- 
-
-This `README.md` provides all the necessary details for users to set up, use, and contribute to your project.
